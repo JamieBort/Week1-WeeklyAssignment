@@ -1,0 +1,73 @@
+/**********************************
+*** This is my CSS file for the ***
+***   first weekly assignment.  ***
+***********************************/
+
+
+/*font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;
+
+Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8 USED
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343
+
+Use CSS to style the website according to the provided layouts in the project-layout folder*/
+
+body{
+  width: 100%;
+  margin: auto;
+}
+
+nav{
+
+}
+
+header{
+  background-color: #F2F1E8;
+}
+
+section {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /*justify-content: space-between;*/
+  /*flex-direction: row;*/
+  background: #F2F1E8;
+
+}
+
+
+div{
+  /*display: flex;*/
+  /*justify-content: space-around;*/
+  /*align-items: center;*/
+  /*flex-direction: column;*/
+    /*margin: 0;*/
+    min-width: 100px;
+    padding: 10px;
+}
+
+/*for image size below also look into 'cover'*/
+
+.image{
+
+    width: auto;
+    height: 200px;
+}
+
+footer {
+  background-color: gray;
+  color: white;
+}
