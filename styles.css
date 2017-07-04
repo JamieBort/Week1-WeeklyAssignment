@@ -27,55 +27,31 @@ Use CSS to style the website according to the provided layouts in the project-la
 /*Index Code*/
 /*            */
 
-body{
-  width: 100%;
-  margin: auto;
+#logo{
+  float:left;
 }
-
-#col1 {
-  float: left;
+#logo img{
+  width: 50%;
+  height: auto;
 }
-
-
-
-header{
+#NavSection{
+  float: right;
+  width: 66%;
+  /*text-align: center;*/
+}
+#BodySection{
+  clear: both;
   background-color: #F2F1E8;
 }
-
- .IndexSection {
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  /*align-items: center;*/
-  /*justify-content: space-between;*/
-  /*flex-direction: row;*/
-  background: #F2F1E8;
-
-}
-
-
-div{
-  /*display: flex;*/
-  /*justify-content: space-around;*/
-  /*align-items: center;*/
-  /*flex-direction: column;*/
-    /*margin: 0;*/
-    min-width: 100px;
-    padding: 10px;
-}
-
-/*for image size below also look into 'cover'*/
-
-.image{
-
-    width: auto;
-    height: 200px;
-}
-
-#IndexFooter {
+#IndexFooter{
   background-color: gray;
   color: white;
 }
+
+
+
+
+
 
 
 
