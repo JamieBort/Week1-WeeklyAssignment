@@ -28,11 +28,19 @@ Text content is provided in the attached project-text-content folder. -->
   </head>
   <body>
 
+<!-- I put the logo in one column and the nav links in a second column -->
+
     <nav class="main_navigation">
-      <a id="logo"><img src="images/bent-creek-logo.png" alt="Broken Link to the Logo"></a>
-      <a href="home.html">Home</a>
-      <a href="About.html">About</a>
-      <a href="Newsletter.html">Newsletter</a>
+      <section id="col1" class="IndexSection">
+        <a id="logo"><img src="images/bent-creek-logo.png" alt="Broken Link to the Logo"></a>
+
+     </section>
+     <section id="col2" class="IndexSection">
+       <a href="home.html">Home</a>
+       <a href="About.html">About</a>
+       <a href="Newsletter.html">Newsletter</a>
+
+     </section>
     </nav>
 
 <!-- change h1 size below - it's too small in chrome. either do it manually in the css or normalize it. -->
@@ -43,11 +51,10 @@ Text content is provided in the attached project-text-content folder. -->
 
     </header>
 
-    <section>
+    <section class="IndexSection">
+
       <!-- <div id="row1" class="oneone"> -->
-
-
-
+        why is this class called 'div1 and not 'one'?
         <div class="div1">
           <img id="one" class="image" src="images/product-1.jpg" alt="Smiley face" >
         </div>
@@ -77,12 +84,12 @@ Text content is provided in the attached project-text-content folder. -->
         <div class="seven">
           <img id="seven" class="image" src="images/product-7.jpg" alt="Smiley face">
         </div>
-      <!-- </div> -->
 
+      <!-- </div> -->
 
     </section>
 
-    <footer>
+    <footer id="IndexFooter">
       <p>Copyright 2017, Bent Creek Ceramics</p>
     </footer>
 
