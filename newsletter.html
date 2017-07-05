@@ -20,58 +20,54 @@ Text content is provided in the attached project-text-content folder. -->
 
 
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>week-one-projec</title>
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body id="NewsletterBody">
 
-    <!-- This code for the 'nav' tag will be identical to that in the idex file -->
-    <!--                                          -->
-    <header id="NewsletterHeader">
+<head>
+  <meta charset="utf-8">
+  <title>week-one-projec</title>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-    </header>
-    <nav>
-      <a id="logo"><img src="img/logo.png" alt="Broken Link to the Logo"></a>
-
-      <nav class="main_navigation">
-          <a href="#">Home</a>
-          <a href="About.html">About</a>
-          <a href="Newsletter.html">Newsletter</a>
+<body>
 
 
-    </nav>
+  <header id="NewsletterHeader">
+
+  </header>
+  <nav id="IndexNav">
+    <a id="logo">
+        <img src="images/bent-creek-logo.png" alt="Broken Link to the Logo"></a>
+    <div id="NavDiv">
+      <section id="NavSection">
+        <a href="home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Newsletter.html">Newsletter</a>
+      </section>
+    </div>
+  </nav>
+  <section id="NewsletterSection">
+    <div id="form">
+      <form action="index.html" method="post">
 
 
-    <section class="NewsletterSection">
-      <!-- image goes here -->
+        <h1>Sign Up for Our Weekly Newsletter</h1>
+        <h2>Stay up to date with actiies, news, events, and specials.</h2>
 
-      <img id="NewsletterBackground" src="images/background-2.jpg" alt="Broken Link to the Background Image">
-      <!-- determine the resone for the 'for' quotes. Fill it in? -->
-      <!-- <form class="form" action="index.html" method="post"> -->
+        <input placeholder="Name" id="nameInput" type="text" name="" value="">
 
-        <!-- <div>
-          <h1>Sign Up for Our Weekly Newsletter</h1>
-          <h2>Stay up to date with actiies, news, events, and specials.</h2>
+        <input placeholder="Email" id="emailInput" type="email" name="" value="">
+        <button id="signupButton" type="button" name="button">Submit</button>
 
-          <label for="">First Name</label>
-          <input type="text" name="" value="">
-          <label for="">Email</label>
-          <input type="email" name="" value="">
-          <button type="button" name="button">Submit</button>
-
-        </div> -->
-      <!-- </form> -->
-
-      <!-- form goes here -->
-    </section>
-    <!-- nothing goes in the footer -->
-    <footer id="NewsletterFooter">
+      </form>
+    </div>
+    <!-- form goes here -->
+  </section>
+  <!-- nothing goes in the footer -->
+  <footer id="NewsletterFooter">
     <!-- put a margin in here too to push the section up -->
 
   </footer>
 
-  </body>
+</body>
+
 </html>
