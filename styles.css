@@ -40,8 +40,9 @@ body{
   z-index: 1;
   width: 100%;
   height: 5em;
+  top: -.2em;
   background: white;
-  top: 0;
+
 }
 
 #logo img {
@@ -70,36 +71,47 @@ body{
 }
 
 
-}
+
 h1, h2 {
   text-align: center;
 }
-.rowpic1 {
-  /*width: auto;*/
-  /*height: 300px;*/
+h1{
+  font-size: 4em;
 }
-.rowpic {
-  /*resize: 20px;*/
-  /*width: auto;*/
-  /*height: 100px;*/
-}
-#BodySection {
-  background-color: #F2F1E8;
-}
-.rowrow {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.columncolumn {
-  flex-basis: 100%;
-  resize: 50%;
-}
-#IndexFooter {
-  background-color: gray;
-  color: white;
+h2{
+  font-size: 3em;
 }
 
+
+#BodySection {
+  background-color: #F2F1E8;
+  margin-top: 2em;
+  padding-top: 3em;
+
+}
+
+.row1{
+  height: 20em;
+  width: auto;
+
+}
+.row2{
+  height: 15em;
+  width: auto;
+}
+.row{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10%;
+
+  border: 5px green solid;
+}
+/*#one, #two, #three{
+  display: inline;
+}*/
+/*#one, #two, #three, #four, #five, #six, #seven{
+  float: left;
+}*/
 /***********************/
 
 /* About page CSS Code */
@@ -167,7 +179,7 @@ border-collapse: collapse;
   height: 100%;
 }
 
-#AboutFooter{
+Footer{
     background-color: gray;
     color: white;
     margin-bottom: 0;
