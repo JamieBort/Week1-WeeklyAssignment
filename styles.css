@@ -30,8 +30,14 @@ Use CSS to style the website according to the provided layouts in the project-la
 
 /*            */
 
-body{
+body {
   margin: 0;
+  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 100%;
 }
 
 #IndexNav {
@@ -42,7 +48,6 @@ body{
   height: 5em;
   top: -.2em;
   background: white;
-
 }
 
 #logo img {
@@ -69,109 +74,208 @@ body{
   justify-content: space-around;
   width: 50%;
 }
+/*#NavSection a:active{
+  background-color: #968772;
+}*/
+.Link:active{
+  background-color: #968772;
+}
 
 
-
-h1, h2 {
+#IndexH1, #IndexH2 {
   text-align: center;
 }
-h1{
+
+#IndexH1 {
   font-size: 4em;
 }
-h2{
+
+#IndexH2 {
   font-size: 3em;
 }
 
+.row div {
+  margin: 0 1.3em;
+}
 
 #BodySection {
   background-color: #F2F1E8;
   margin-top: 2em;
   padding-top: 3em;
-
 }
 
-.row1{
+.row1 {
   height: 20em;
-  width: auto;
-
 }
-.row2{
-  height: 15em;
-  width: auto;
-}
-.row{
+.row {
   display: flex;
   justify-content: space-around;
-  margin: 0 10%;
-
-  border: 5px green solid;
+  margin: 0 2.5%;
 }
-/*#one, #two, #three{
-  display: inline;
-}*/
-/*#one, #two, #three, #four, #five, #six, #seven{
-  float: left;
-}*/
+
+#two {
+  /*margin: 2em;*/
+}
+
+.indexButton {
+  color: #FFFFFF;
+  background-color: #968772;
+  position: relative;
+  z-index: 2;
+  top: -6em;
+  right: -1.5em;
+  padding: 1em;
+  border: none;
+}
+
+.indexButton:hover {
+  color: #967343;
+}
+
+.indexButton:focus {
+  background-color: #967343;
+}
+
+
 /***********************/
+
 
 /* About page CSS Code */
 
+
 /***********************/
+
 
 /* Need to fix this below                   */
 
+
 /*https://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-in-the-background-with-css-only*/
+
 #AboutSection {
   position: relative;
-  top: 75px;
+  margin-top: 75px;
   background-image: url(images/background-3.jpg);
   background-size: 100% auto;
   background-attachment: fixed;
   /*background-position: center;*/
   width: 100%;
-  height: 100%;
-    z-index: -1
+  /*height: 100%;*/
+  /*z-index: -1*/
 }
 
-#div1, #div3{
+#AboutTitle {
+  font-size: 4em;
+  text-align: center;
+}
+
+#quote {
+  /*margin-top: 5em;*/
+  padding: 1em;
+  /*margin-right: 6em;*/
+  margin: 5em 8em 0 3em;
+  border-left: brown 2px solid;
+}
+
+#div4, #div5 {
+  padding: 1.5em 5.5em;
+}
+
+#div1, #div3 {
   background-color: #F2F1E8;
-
 }
-#div2{
+
+#div3 {
+  height: 100%;
+}
+
+#div2 {
   height: 10em;
 }
-#div4, #div5{
+
+#div4, #div5 {
   margin: 0 10em;
 }
-#div5{
+
+#div5 {
   padding-bottom: 2em;
   margin-bottom: 4.5em;
-
 }
 
-#BirdHouse{
+#middleText {
+  font-size: 4em;
+  color: white;
+  text-align: center;
+  top: .2em;
+  position: relative;
+}
+
+#BirdHouse {
   float: left;
   width: 25%;
   height: auto;
+  margin-right: 2em;
 }
 
-#Shelf{
-  width: 25%;
-  height: auto;
+#div5 div, #div5 figure {
+  /*border: red 1px solid;*/
+}
+
+#div6 {
+  float: left;
+  width: 65%;
+  /*display: flex;*/
+  /*justify-content: flex-end;*/
+}
+
+figure {
+  width: 20%;
+  float: right;
+  margin-top: 3em;
+}
+
+#Shelf {
+  /*width: 25%;*/
+  /*height: auto;*/
   /*float: right;*/
 }
+
 #div7 {
+  /*clear: right;*/
+}
+
+figcaption {
+  margin-top: .5em;
   /*float: right;*/
-    /*text-align: center;*/
 }
 
-table, th, td{
-border: 1px solid black;
-border-collapse: collapse;
+#runrun {
+  /*float: left;*/
+  /*clear: right;*/
+}
+#div8{
+  /*height: 13em;*/
+}
+tr{
+  padding: 3px;
+}
+th, td{
+  padding: 1em;
+
+}
+.row2{
+  /*width: 3em;*/
+}
+table, #div8 {
+  clear: both;
 }
 
-#oddRow{
-  background-color: green;
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#oddRow {
+  background-color: #F5DEB3;
 }
 
 #AboutBackground {
@@ -179,26 +283,30 @@ border-collapse: collapse;
   height: 100%;
 }
 
-Footer{
-    background-color: gray;
-    color: white;
-    margin-bottom: 0;
-    padding: 2em 0;
+Footer {
+  background-color: gray;
+  color: white;
+  margin-bottom: 0;
+  padding: 2em 0;
 }
-span{
+
+span {
   margin-left: 2em;
 }
+
+
 /***********************/
+
 
 /* Newsletter CSS Code */
 
+
 /***********************/
+
 #NewsletterSection {
   position: relative;
   top: 50px;
   background-image: url(images/background-2.jpg);
-
-
   height: 100vh;
   z-index: -1;
   display: flex;
@@ -206,16 +314,44 @@ span{
   align-items: center;
 }
 
+
 /*********** code for the form */
+
 #form {
   width: 50%;
-  height: 200px;
+  height: 350px;
   background-color: white;
 }
+
 #form form {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+
+#FormH1 {
+  margin-top: 2em;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+#input1, #input2{
+  font: .8em arial;
+  width: 40em;
+  height: 2em;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+#signupButton {
+  font: 1em arial;
+  margin-top: 1.3em;
+  width: 9em;
+  height: 4em;
+  color: white;
+  background-color: #968772;
+  border: none;
+}
+
 
 /*********** code for the form */
