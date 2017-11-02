@@ -92,7 +92,8 @@ Add the id emailInput to the email input field in the newsletter page.
 Add the id signupButton to the "Submit" button in the newsletter page.
 Include the following code snippet just before the closing body tag (</body>) in newsletter/index.html:
 
-'''<script type="text/javascript">
+```
+<script type="text/javascript">
   var nameInput = document.getElementById('nameInput');
   var emailInput = document.getElementById('emailInput');
   var signupButton = document.getElementById('signupButton');
@@ -107,12 +108,7 @@ Include the following code snippet just before the closing body tag (</body>) in
       alert('We would love for you to sign up, please provide both your name and email address.');
     }
   });
-</script>'''
-
-```
-# code block
-print '3 backticks or'
-print 'indent 4 spaces'
+</script>
 ```
 
 In your browser, load the site, navigate to "NEWSLETTER", add a name and an email address to the sign up form, and submit.
