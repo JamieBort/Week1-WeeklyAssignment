@@ -109,4 +109,10 @@ Include the following code snippet just before the closing body tag (</body>) in
   });
 </script>'''
 
+```
+# code block
+print '3 backticks or'
+print 'indent 4 spaces'
+```
+
 In your browser, load the site, navigate to "NEWSLETTER", add a name and an email address to the sign up form, and submit.
