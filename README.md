@@ -88,15 +88,15 @@ You will need to turn this project in via Github. Track the files of this projec
 
 Bonus
 
-Create and apply a favicon.
-Use CSS only to make navigation links all caps.
-Apply a subtle drop shadow to the bottom of the header.
-Apply a subtle transition duration to hover and focus states
-Apply parallax scrolling to the background image in the "Room to Grow" section on the about page. When scrolled the image appears to stay stationary while the sections above and below scroll over. This can be done with with the css background and background-size properties.
-Add the id nameInput to the name input field in the newsletter page.
-Add the id emailInput to the email input field in the newsletter page.
-Add the id signupButton to the "Submit" button in the newsletter page.
-Include the following code snippet just before the closing body tag (</body>) in newsletter/index.html:
+* Create and apply a favicon.
+* Use CSS only to make navigation links all caps.
+* Apply a subtle drop shadow to the bottom of the header.
+* Apply a subtle transition duration to hover and focus states
+* Apply parallax scrolling to the background image in the "Room to Grow" section on the about page. When scrolled the image appears to stay stationary while the sections above and below scroll over. This can be done with with the css background and background-size properties.
+* Add the id nameInput to the name input field in the newsletter page.
+* Add the id emailInput to the email input field in the newsletter page.
+* Add the id signupButton to the "Submit" button in the newsletter page.
+* Include the following code snippet just before the closing body tag (</body>) in newsletter/index.html:
 
 ```
 <script type="text/javascript">
