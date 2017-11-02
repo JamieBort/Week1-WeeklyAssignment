@@ -55,15 +55,16 @@ Step 2: Download assets and setup project
 
 Step 3: Architecting your web site
 
-Using semantic markup, write the HTML for all three pages.
+* Using semantic markup, write the HTML for all three pages.
 
-Home: The home page layout belongs in index.html.
-The title for the home page is "Bent Creek Ceramics".
-About: The about page layout belongs in about.html.
-The title for the about page is "Bent Creek Ceramics - About".
-Newsletter: The newsletter page layout belongs in newsletter.html.
-The title for the newsletter page is "Bent Creek Ceramics - Newsletter".
-Text content is provided in the attached project-text-content folder.
+  * Home: The home page layout belongs in index.html.
+  * The title for the home page is "Bent Creek Ceramics".
+  * About: The about page layout belongs in about.html.
+  * The title for the about page is "Bent Creek Ceramics - About".
+  * Newsletter: The newsletter page layout belongs in newsletter.html.
+  * The title for the newsletter page is "Bent Creek Ceramics - Newsletter".
+
+* Text content is provided in the attached project-text-content folder.
 
 Step 4: Styling your website
 
@@ -71,15 +72,16 @@ Use CSS to style the website according to the provided layouts in the project-la
 
 Step 5: Considerations
 
-The header/navigation component is always fixed to the top. Contents should scroll behind this component.
-Navigation links at the top should link to the corresponding pages in your project directory (paths may vary for each .html document).
-The currently visited page's navigation link should have an "active" state.
-Use flexbox for grid level layout.
-The text "dedicated environment" in the first paragraph of the about page is an inline link. It should link a user to the "Facilities" section below when clicked.
-The newsletter signup page has a minimum height of the viewport's height.
-The newsletter signup module is centered horizontally and vertically on the page.
-The "Name" input field on the newsletter page should have the type text.
-The "Email" input field on the newsletter page should have the type email.
+* The header/navigation component is always fixed to the top. Contents should scroll behind this component.
+* Navigation links at the top should link to the corresponding pages in your project directory (paths may vary for each .html document).
+* The currently visited page's navigation link should have an "active" state.
+* Use flexbox for grid level layout.
+* The text "dedicated environment" in the first paragraph of the about page is an inline link. It should link a user to the "Facilities" section below when clicked.
+* The newsletter signup page has a minimum height of the viewport's height.
+* The newsletter signup module is centered horizontally and vertically on the page.
+* The "Name" input field on the newsletter page should have the type text.
+* The "Email" input field on the newsletter page should have the type email.
+
 Step 6: Submitting this Project
 
 You will need to turn this project in via Github. Track the files of this project with git and submit a Github link to the remote repository.
