@@ -1,9 +1,9 @@
 from: https://newline.theironyard.com/cohorts/15/courses/9/projects/41
 
-Week 1 - Weekly Assignment
+# Week 1 - Weekly Assignment
 Small Business Website - Build a Website to Specifications
 
-Bent Creek Ceramics  
+## Bent Creek Ceramics  
 Your objective is to develop a website according to the following specifications.
 
 Step 1: Use bash in your terminal to do the following:
@@ -24,7 +24,7 @@ Add the following content to README.md:
 
 The above text is using a format called Markdown. It is an easy way write plain text with a few special characters and have it render as HTML with a Markdown viewer. GitHub will render Markdown, which makes it particularly handy as a tool for writing documentation. See Daring Fireball for an explanation of Markdown and a description of its syntax.
 
-source files
+The source files can be found [here](https://github.com/JamieBort/Week1-WeeklyAssignment/tree/master/SourceFiles)
 
 Step 2: Download assets and setup project
 
