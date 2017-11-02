@@ -36,21 +36,23 @@ Step 2: Download assets and setup project
 * Download the attached project-text-content folder.
 * Import the following fonts (Follow the instructions in the "2 Families Selected" tab at bottom of the Google Fonts page):
   * Google Fonts - Lara | Roboto
+
 * Use the following colors for your layout:
-Background: #F2F1E8
-Text: #131511
-Inline Link: #968772
-Inline Link (Hover): #967343
-Navigation Background: #FFFFFF
-Navigation Text: #2B2F26
-Navigation Text (Hover): #CD5D67
-Navigation Text (Active) #968772
-Button Background: #968772
-Button Background (Hover): #967343
-Button Text: #F2F1E8
-Button Text (Hover): #FFFFFF
-Input Border Bottom: #968772
-Input Border Bottom (Focus): #967343
+  * Background: #F2F1E8
+  * Text: #131511
+  * Inline Link: #968772
+  * Inline Link (Hover): #967343
+  * Navigation Background: #FFFFFF
+  * Navigation Text: #2B2F26
+  * Navigation Text (Hover): #CD5D67
+  * Navigation Text (Active) #968772
+  * Button Background: #968772
+  * Button Background (Hover): #967343
+  * Button Text: #F2F1E8
+  * Button Text (Hover): #FFFFFF
+  * Input Border Bottom: #968772
+  * Input Border Bottom (Focus): #967343
+
 Step 3: Architecting your web site
 
 Using semantic markup, write the HTML for all three pages.
