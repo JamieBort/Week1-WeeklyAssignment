@@ -18,9 +18,11 @@ Step 1: Use bash in your terminal to do the following:
   1. images
 * Add the following content to README.md:
 
-## Week One Project
+```
+Week One Project
 - HTML
 - CSS
+```
 
 The above text is using a format called Markdown. It is an easy way write plain text with a few special characters and have it render as HTML with a Markdown viewer. GitHub will render Markdown, which makes it particularly handy as a tool for writing documentation. See Daring Fireball for an explanation of Markdown and a description of its syntax.
 
@@ -28,13 +30,13 @@ The source files can be found [here](https://github.com/JamieBort/Week1-WeeklyAs
 
 Step 2: Download assets and setup project
 
-Download the attached project-images folder.
-Use bash in your terminal to move the downloaded images into the images folder in your project (week-one-project/images).
-Download the attached project-layout folder.
-Download the attached project-text-content folder.
-Import the following fonts (Follow the instructions in the "2 Families Selected" tab at bottom of the Google Fonts page):
-Google Fonts - Lara | Roboto
-Use the following colors for your layout:
+* Download the attached project-images folder.
+* Use bash in your terminal to move the downloaded images into the images folder in your project (week-one-project/images).
+* Download the attached project-layout folder.
+* Download the attached project-text-content folder.
+* Import the following fonts (Follow the instructions in the "2 Families Selected" tab at bottom of the Google Fonts page):
+  * Google Fonts - Lara | Roboto
+* Use the following colors for your layout:
 Background: #F2F1E8
 Text: #131511
 Inline Link: #968772
