@@ -8,17 +8,17 @@ Your objective is to develop a website according to the following specifications
 
 Step 1: Use bash in your terminal to do the following:
 
-Create a new project folder titled week-one-project.
-Inside week-one-project, create 3 new files:
-index.html
-styles.css
-README.md
-Inside week-one-project, create 1 new folder:
+* Create a new project folder titled week-one-project.
+* Inside week-one-project, create 3 new files:
+  1. index.html
+  2. styles.css
+  3. README.md
+* Inside week-one-project, create 1 new folder:
 
-images
-Add the following content to README.md:
+  1. images
+* Add the following content to README.md:
 
-# Week One Project
+## Week One Project
 - HTML
 - CSS
 
