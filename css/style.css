@@ -1,0 +1,10 @@
+img{
+  width: 50%;
+  border: .1em solid red;
+}
+.pic_div {
+  /* border: .1em solid blue; */
+}
+.row1, .row2 {
+  border: .1em solid black;
+}

@@ -1,3 +1,10 @@
+TODO:
+
+- [ ] 1. Redo the assignment.
+- [ ] 2. Remove/delete 'old' directory.
+- [ ] 3. Design this for tablet and mobile as well.
+- [ ] 4. push to gh-pages.
+
 from: https://newline.theironyard.com/cohorts/15/courses/9/projects/41
 
 # Week 1 - Weekly Assignment
