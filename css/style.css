@@ -29,18 +29,26 @@ Use CSS to style the website according to the provided layouts in the project-la
 
 header {
   display: flex;
-  border: .1em solid blue;
+  z-index: 10;
+  position:fixed;
+  width: 100%;
+  top: 0em;
+  background-color: white;
+  /* border: .1em solid blue; */
 }
 
 header img {
-  /* width: 15%; */
-  /* border: .1em solid green; */
+  /* height: 25%; */
+  /* width: auto; */
+  /* width: 5%; */
+  /* height: auto; */
+  border: .1em solid green;
 }
 
 header div {
   display: flex;
   justify-content: center;
-  width: 100%;
+width: 100%;
   /* border: .1em solid green; */
 }
 
@@ -57,38 +65,88 @@ header div a:hover {
 }
 
 section {
+  display:flex;
+  flex-direction: column;
+  /* margin-top: 10em; */
+  position:relative;
+  /* top: 6.1em; */
+  padding-top: 5em;
   background-color: #F2F1E8;
+  /* border: .1em solid green; */
 }
 
+h1, h2{
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  /* border: .1em solid green; */
+}
+h2 {
+  /* border: .1em solid red; */
+}
 section div div img {
   width: 100%;
-  border: .1em solid red;
+  /* border: .1em solid red; */
 }
 
 section div div a {
-  border: .1em solid yellow;
+  /* border: .1em solid yellow; */
+  position: relative;
+  bottom: 2em;
+  left: 1em;
 }
 
 #div2 {
-  border: .5em solid green;
+  /* border: .5em solid green; */
 }
 
 .row1, .row2 {
   display: flex;
-  border: .1em solid black;
+  /* margin: 0em; */
+  /* border: .1em solid black; */
 }
 
 .pic_div {
+  margin-left: .3em;
+  margin-right:  .3em;
+  /* height: 20em; */
+  /* border: .5em solid green; */
   /* border: .1em solid blue; */
 }
+/* ===================================================== */
+/* The following worked before I modified the html file. */
+/* ===================================================== */
+/* div img {
+  height: 20em;
+  width: auto;
+  object-fit: cover;
+} */
+/* The below does not work yet. */
+.row1_img {
+  height: 20em;
+  width: auto;
+  object-fit: cover;
+/* margin: 1em; */
+}
+.row2_img {
+  height: 25em;
+  width: auto;
+  object-fit: cover;
+/* margin: 1em; */
+}
+/* ===================================================== */
 footer {
   display: flex;
   align-items: center;
   background-color: #968772;
+  position:relative;
+  top: 8em;
   /* height: 3em; */
 }
 footer span {
   margin-left: 1em;
   margin-top: 2em;
   margin-bottom: 2em;
+
 }
